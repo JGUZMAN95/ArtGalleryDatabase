@@ -1,8 +1,4 @@
 
- Jocelyn Guzman (915040482)
- Discord Bot Link: https://discord.gg/dxyuJhgq3Z
- Replit Link: https://replit.com/join/duiirnglxr-jguzman95
- ---------------------------------------------------------------------------------------
  Bot Commands:
 /topcollectors
 -Will return top 5 collectors with their most recent purchase details
@@ -85,11 +81,11 @@ Find top 5 collectors with most recent purchase details
 -Create a transaction for a collector and update their history log
 -Create an event at a gallery and add guests who have bought art from the given artists exhibit
 -Allow for artists to approve or deny contracts. 
-- Add new art while updating inventor and automatically adding note to every collector who is interested in an artist whenever new art from that artists has arrived
-- Be able to view all Sales made in a day
+-Add new art while updating inventor and automatically adding note to every collector who is interested in an artist whenever new art from that artists has arrived
+-Be able to view all Sales made in a day
 -See all sales representative analytics
 -Be able to identify history of an art piece
-- Be able to find art work in specific range
- -Be able to see which collectors have bought art work from a specific artist
-- Find who was the last person to buy an artwork piece and get their contact information
-- Find how many collectors are interested in the same artwork piece
+-Be able to find art work in specific range
+-Be able to see which collectors have bought art work from a specific artist
+-Find who was the last person to buy an artwork piece and get their contact information
+-Find how many collectors are interested in the same artwork piece
