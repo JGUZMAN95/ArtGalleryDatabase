@@ -1,0 +1,95 @@
+
+ Jocelyn Guzman (915040482)
+ Discord Bot Link: https://discord.gg/dxyuJhgq3Z
+ Replit Link: https://replit.com/join/duiirnglxr-jguzman95
+ ---------------------------------------------------------------------------------------
+ Bot Commands:
+/topcollectors
+-Will return top 5 collectors with their most recent purchase details
+
+/galleryanalytics, <galleryname>
+-Will return gallery info with a list of the top 5 selling artists
+ex: /galleryanalytics, Art on 5th
+
+/events
+-Will return list of upcoming events in the current month, with all the given guest that have made 2 or more purchases
+
+/collectorsinterestedwork, <collectors_lastname>,<collectors_firstname>
+-Returns a collectors artwork they are interested with price, Image, and details 
+ex: /collectorsinterestedwork, Guzman, Jocelyn
+
+/artistspublicinfo,<artist_lastname>,<artist_firstname>
+-Returns artists public info and a list of current artwork on sale
+ex: /artistspublicinfo, Rivera, Diego
+
+/artworkimages,<artwork_name>
+-Return images of a specific artwork with the details all details about artwork piece
+ex:/artworkimages, The Flower Vendor
+
+/purchase,<artWork_Name>,<collectors_lastname>,<collectors_firstname>,<formOfPayment>
+-Allows for a transaction to be started and returns collectors payment info with id.
+ex: /purchase, The Flower Vendor, Guzman, Jocelyn, Credit
+
+/createevent,<Date&time>,<galleryname>,<artist_lastname>, <artist_firstname>
+-Creates a new event at given gallery
+time in militray time
+ex: createEvent, 2222-45-12 12:00:00, Art on Fith,  Villasana, Victoria
+
+/approvecontractartist,<contract_id>
+-Allows for an artist to approve a contract
+ex: /approvecontractartis, 12
+
+/addtoinventory,<artist_lastName>,<artist_firstName>,<Artworkname>,<materials>, <price>,<description><demensions>
+-Adds new art into inventory 
+ex: /addtoinventory, Villasana, Victoria, LIFT HER UP, multiple, 500.00, hand sown into a print, 2x3in
+
+/todaysales,<date>
+    - Lists all sales that were made in given date
+    ex: /todaysales, 05/09/2022
+
+/saleRepAnalytics
+    -Lists all sales reps and their gross sales
+
+/getart<artwork_name>
+    -Returns all info on artwork with given name if sold then will return who is current collector
+    ex: /getart, LIFT HER UP 
+More commands:
+/getartrange,<min>,<max>
+    - Return list of all art work that is within given price range, with art info
+    ex: /getartrange, 300, 1000
+
+/completetransaction,<collectors_name>,<paymentId>
+    - Allows for a Sales rep finalize transaction with given payment  updates collectors invoices and history log
+    ex: /completetransaction, Jocelyn , Guzman, 1
+
+/collectorsof,<artist_name>
+    - Returns list of collectors that have bought artwork from given artist
+    ex: /collectorsof, Victoria, Villasana
+
+/findpastartwork<artwork_name>
+    - Returns who was the last person to buy an artwork piece with collectors contact info
+    ex:/findpastartwork, BREAKFAST AT TIFFANY’S
+
+/numberofcollectorsinterestedin, <lastname>, <firstname>
+    - Return collectors that are interested in given Artist
+    ex: /numberofcollectorsinterestedin, picasso, pablo
+--------------------------------------------------------------------------------------------
+BUISNESS-REQUIRMENTS
+
+Find top 5 collectors with most recent purchase details
+-Give galleryInfo with the list of top 5 selling artist
+-Show upcoming events in the current month, automatically add collectors that have made 2 or more purchases from the artists
+-Find what artwork a collector is interested in 
+-Access artists public info to be able to see current artwork for sale
+-See images of a specific artwork with the details all details about artwork piece
+-Create a transaction for a collector and update their history log
+-Create an event at a gallery and add guests who have bought art from the given artists exhibit
+-Allow for artists to approve or deny contracts. 
+- Add new art while updating inventor and automatically adding note to every collector who is interested in an artist whenever new art from that artists has arrived
+- Be able to view all Sales made in a day
+-See all sales representative analytics
+-Be able to identify history of an art piece
+- Be able to find art work in specific range
+ -Be able to see which collectors have bought art work from a specific artist
+- Find who was the last person to buy an artwork piece and get their contact information
+- Find how many collectors are interested in the same artwork piece
